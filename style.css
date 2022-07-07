@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 1000px;
+  max-width: 100%
+}
+
+nav {
+  background-color: red;
+  display: flex;
+  /* The flex-wrap property specifies whether the flex items should wrap or not.  */
+  flex-direction: column;
+  /* The flexible items are displayed vertically, as a column	 */
+
+  justify-content: space-between;
+  /* The "justify-content: space-between;" displays the flex items with space between the lines: */
+  padding: 1rem;
+  width: 350px;
+  height: 100vh;
+  /* vh stands for Viewport Height and is Relative to 1% of the height of the viewport*	 */
+ }
+
+nav ul {
+  list-style-type: none;
+  /* list-style-type: none; - Removes the bullets. */
+   padding: 0;
+ }
+
+
+nav a {
+  text-decoration: none;
+  /* text deocoration none removes the underline */
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  /* inline-block allows to set a width and height on the element. Also, with display: inline-block does not add a line-break after the element, so the element can sit next to other elements. */
+  padding: 1rem;
+  /* This gives the list item more spaces between. Makes it wider  */
+}
+
+
+.special {
+  background-color: #feab51;
+  color: black;
+  display: block;
+  /* this allows the background color to go all the way to the edge of the width */
+  padding: 1rem;
+}
