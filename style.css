@@ -16,6 +16,8 @@ body {
 }
 
 nav {
+  position: sticky;
+  top: 0;
   background-color: red;
   display: flex;
   /* The flex-wrap property specifies whether the flex items should wrap or not.  */
